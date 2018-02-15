@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NASA</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <div class="row">
+            <header class="col-sm-12 flex-center">
+                <h1>A Glimpse at the Universe</h1>
+                <h5>Enter a Date</h5>
+                <form class="flex-together" id="form">
+                    <input id="date" name="date" class="form-control text-center" type="date" placeholder="Date">
+                </form>
+            </header>
+            <div class="col-sm-12 text-center" id="apod">
+                <!-- STUFF GOES HERE -->
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="nasa-service.js"></script>
+    <script src="nasa-controller.js"></script>
+    <script src="init.js"></script>
+</body>
+
+</html>
